@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Booking</title>
+    <link rel="stylesheet" href="food.css">
+</head>
+<body>
+
+    <header>
+        <h1>🍴 Jolly snacks corner</h1>
+        <p>Fresh Food • Fast Delivery • Great Taste</p>
+    </header>
+
+    <section class="container">
+
+        <h2>Food Menu</h2>
+
+        <div class="food-menu">
+
+            <div class="food-card">
+                <div class="food-img">🍕</div>
+                <h3>Cheese Pizza</h3>
+                <p>Delicious cheese pizza</p>
+                <span>₹199</span>
+                <input type="number" min="0" value="0">
+            </div>
+
+            <div class="food-card">
+                <div class="food-img">🍔</div>
+                <h3>Chicken Burger</h3>
+                <p>Juicy chicken burger</p>
+                <span>₹149</span>
+                <input type="number" min="0" value="0">
+            </div>
+
+            <div class="food-card">
+                <div class="food-img">🍝</div>
+                <h3>Italian Pasta</h3>
+                <p>Creamy and tasty pasta</p>
+                <span>₹179</span>
+                <input type="number" min="0" value="0">
+            </div>
+
+            <div class="food-card">
+                <div class="food-img">🍟</div>
+                <h3>French Fries</h3>
+                <p>Crispy golden fries</p>
+                <span>₹99</span>
+                <input type="number" min="0" value="0">
+            </div>
+
+        </div>
+
+        <div class="order-box">
+
+            <h2>Customer Details</h2>
+
+            <form>
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter your name" required>
+
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter phone number" required>
+
+                <label>Delivery Address</label>
+                <textarea placeholder="Enter your delivery address" required></textarea>
+
+                <label>Payment Method</label>
+                <select>
+                    <option>Cash on Delivery</option>
+                    <option>UPI</option>
+                    <option>Credit/Debit Card</option>
+                </select>
+
+                <button type="submit">Place Order</button>
+            </form>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Foodie Express | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
